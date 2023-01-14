@@ -93,11 +93,11 @@ const SignUp: FC = () => {
             className={`w-full rounded-sm px-2 py-1 ${errors.confirm?.message && "outline outline-1 outline-red-600"}`}
           />
         </div>
-        <button disabled={isSubmitting} className="bg-blue-800 text-white text-center w-full py-1 uppercaseuppercase">
+        <button disabled={isSubmitting} className="bg-blue-800 text-white text-center w-full py-1">
           アカウント作成
         </button>
       </form>
-      <Link to="/login" className="bg-stone-700 text-center text-white w-full py-1 inline-block uppercase">
+      <Link to="/login" className="bg-stone-700 text-center text-white w-full py-1 inline-block">
         ログインはこちらから
       </Link>
     </div>
